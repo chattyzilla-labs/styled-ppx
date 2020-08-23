@@ -502,7 +502,7 @@ let styledPpxMapper = (_, _) => {
     | {
         pexp_desc:
           Pexp_extension((
-            {txt: "css", _},
+            {txt: "styled.inline", _},
             PStr([
               {
                 pstr_desc:
