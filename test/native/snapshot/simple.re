@@ -33,7 +33,7 @@ module Component = [%styled {j|
 // |j}
 // ];
 
-[%css "display: block"];
+[%styled.inline "display: block"];
 
 /* module Component = [%styled fun ~var -> {j|
      color: $var;
