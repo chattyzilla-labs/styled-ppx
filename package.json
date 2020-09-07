@@ -32,7 +32,8 @@
       ]
     }
   },
-  "devDependencies": {
+  "dependencies": {
+    "@opam/ppxlib": "0.14.0",
     "@opam/merlin": "*",
     "ocaml": "4.10.0",
     "@esy-ocaml/reason": "^3.5.2",
@@ -58,8 +59,5 @@
     "format": "esy dune build @fmt --auto-promote",
     "watch": "esy dune build -p styled-ppx --watch",
     "utop": "esy dune utop lib -- -implicit-bindings"
-  },
-  "dependencies": {
-    "@opam/ppxlib": "0.14.0"
   }
 }
