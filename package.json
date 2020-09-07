@@ -35,7 +35,6 @@
   "dependencies": {
     "@opam/ppxlib": "0.14.0",
     "@opam/merlin": "*",
-    "ocaml": "4.10.0",
     "@esy-ocaml/reason": "^3.5.2",
     "@opam/dune": "*",
     "@opam/menhir": "20200211",
@@ -43,6 +42,9 @@
     "@opam/sedlex": "*",
     "@reason-native/rely": "^3.2.1",
     "reason-css-parser": "EduardoRFS/reason-css-parser:package.json#a8772a12b65fe3d1ac51de98f50a95bf27b3b9d4"
+  },
+  "devDependencies": {
+    "ocaml": "4.10.0"
   },
   "resolutions": {
     "@esy-ocaml/reason": "facebook/reason:reason.json#773dbcd"
